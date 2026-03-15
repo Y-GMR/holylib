@@ -1,9 +1,5 @@
 # holylib
 
-Part of the **holymoly** project.
-
----
-
 ## Overview
 
 `holylib` provides a small set of utility functions that wrap standard C input/output with safer, more predictable behavior. It addresses common pitfalls of raw `scanf` usage — buffer overflows, leftover newlines, and silent type mismatches — through a unified input handler and helper functions.
