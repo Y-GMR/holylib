@@ -119,17 +119,12 @@ void clean();
 
 ### `void pause()`
 
-Displays a "Press ENTER to continue" prompt and waits for the user to press Enter.
+Waits for the user to press Enter by reading a single character from stdin.
 
 **Use case:** Used after error messages to let the user read the output before the screen updates.
 
 ```c
 void pause();
-```
-
-**Output:**
-```
-> > > Press ENTER to continue < < <
 ```
 
 ---
