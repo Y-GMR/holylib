@@ -6,7 +6,8 @@ void clean() {
 }
 
 void pause() {
-	printf("\n\n> > > Press ENTER to continue < < <\n");
+	int sweep;
+	while ((sweep = getchar()) != '\n' && sweep != EOF);
 	getchar();
 }
 
