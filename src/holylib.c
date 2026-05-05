@@ -6,8 +6,6 @@ void clean() {
 }
 
 void pause() {
-	int sweep;
-	while ((sweep = getchar()) != '\n' && sweep != EOF);
 	getchar();
 }
 
